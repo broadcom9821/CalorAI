@@ -204,14 +204,5 @@ trio==0.19.0
 trio-websocket==0.9.2
 twilio==7.4.0
 typing-inspect==0.9.0
-typing_extensions==4.7.1
-tzdata==2021.5
-ujson==5.8.0
-unification==0.2.2
-uri-template==1.2.0
-urllib3==1.26.7
+typing_extensions==4.8.0
 uvicorn==0.23.2
-watchfiles==0.19.0
-yarl==1.8.2
-zipp==3.8.1
-zmq==0.0.0
