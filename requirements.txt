@@ -128,6 +128,7 @@ tensorflow-text==2.10.0
 termcolor==1.1.0
 terminado==0.17.1
 torch==2.1.0
+torchvision==0.16.0
 typing-inspect==0.9.0
 typing_extensions==4.8.0
 uvicorn==0.23.2
