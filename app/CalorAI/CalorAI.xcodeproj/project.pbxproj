@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D570ED0B2B0952BC0077DD29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D570ED0A2B0952BC0077DD29 /* AppDelegate.swift */; };
+		D570ED0D2B0952BC0077DD29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D570ED0C2B0952BC0077DD29 /* SceneDelegate.swift */; };
+		D570ED0F2B0952BC0077DD29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D570ED0E2B0952BC0077DD29 /* ViewController.swift */; };
+		D570ED142B0952BD0077DD29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D570ED132B0952BD0077DD29 /* Assets.xcassets */; };
+		D570ED172B0952BD0077DD29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D570ED152B0952BD0077DD29 /* LaunchScreen.storyboard */; };
+		D570ED222B0952BE0077DD29 /* CalorAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D570ED212B0952BE0077DD29 /* CalorAITests.swift */; };
+		D570ED2C2B0952BE0077DD29 /* CalorAIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D570ED2B2B0952BE0077DD29 /* CalorAIUITests.swift */; };
+		D570ED2E2B0952BE0077DD29 /* CalorAIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D570ED2D2B0952BE0077DD29 /* CalorAIUITestsLaunchTests.swift */; };
+		D570ED3B2B0955980077DD29 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D570ED3A2B0955980077DD29 /* ContainerViewController.swift */; };
+		D570ED3D2B0961E10077DD29 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D570ED3C2B0961E10077DD29 /* MenuViewController.swift */; };
+		D570ED3F2B0963250077DD29 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D570ED3E2B0963250077DD29 /* HomeViewController.swift */; };
+		D58C9A7F2B09BDF300EB9E72 /* CalorieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58C9A7E2B09BDF300EB9E72 /* CalorieViewController.swift */; };
+		D58C9A812B09E52D00EB9E72 /* circle.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D58C9A802B09E52D00EB9E72 /* circle.jpeg */; };
+		D58C9A832B09EFAB00EB9E72 /* UploadPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58C9A822B09EFAB00EB9E72 /* UploadPictureViewController.swift */; };
+		D58C9A852B09FC7500EB9E72 /* ConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58C9A842B09FC7500EB9E72 /* ConfirmationViewController.swift */; };
+		D58C9A872B0A27D600EB9E72 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = D58C9A862B0A27D600EB9E72 /* profile.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D570ED1E2B0952BE0077DD29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D570ECFF2B0952BC0077DD29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D570ED062B0952BC0077DD29;
+			remoteInfo = CalorAI;
+		};
+		D570ED282B0952BE0077DD29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D570ECFF2B0952BC0077DD29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D570ED062B0952BC0077DD29;
+			remoteInfo = CalorAI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D570ED072B0952BC0077DD29 /* CalorAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalorAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D570ED0A2B0952BC0077DD29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D570ED0C2B0952BC0077DD29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D570ED0E2B0952BC0077DD29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D570ED132B0952BD0077DD29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D570ED162B0952BD0077DD29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D570ED182B0952BD0077DD29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D570ED1D2B0952BE0077DD29 /* CalorAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalorAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D570ED212B0952BE0077DD29 /* CalorAITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorAITests.swift; sourceTree = "<group>"; };
+		D570ED272B0952BE0077DD29 /* CalorAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalorAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D570ED2B2B0952BE0077DD29 /* CalorAIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorAIUITests.swift; sourceTree = "<group>"; };
+		D570ED2D2B0952BE0077DD29 /* CalorAIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorAIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D570ED3A2B0955980077DD29 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		D570ED3C2B0961E10077DD29 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		D570ED3E2B0963250077DD29 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D58C9A7E2B09BDF300EB9E72 /* CalorieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieViewController.swift; sourceTree = "<group>"; };
+		D58C9A802B09E52D00EB9E72 /* circle.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = circle.jpeg; path = ../../../Downloads/circle.jpeg; sourceTree = "<group>"; };
+		D58C9A822B09EFAB00EB9E72 /* UploadPictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPictureViewController.swift; sourceTree = "<group>"; };
+		D58C9A842B09FC7500EB9E72 /* ConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationViewController.swift; sourceTree = "<group>"; };
+		D58C9A862B0A27D600EB9E72 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile.png; path = ../../../Downloads/profile.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D570ED042B0952BC0077DD29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D570ED1A2B0952BE0077DD29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D570ED242B0952BE0077DD29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D570ECFE2B0952BC0077DD29 = {
+			isa = PBXGroup;
+			children = (
+				D570ED092B0952BC0077DD29 /* CalorAI */,
+				D570ED202B0952BE0077DD29 /* CalorAITests */,
+				D570ED2A2B0952BE0077DD29 /* CalorAIUITests */,
+				D570ED082B0952BC0077DD29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D570ED082B0952BC0077DD29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D570ED072B0952BC0077DD29 /* CalorAI.app */,
+				D570ED1D2B0952BE0077DD29 /* CalorAITests.xctest */,
+				D570ED272B0952BE0077DD29 /* CalorAIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D570ED092B0952BC0077DD29 /* CalorAI */ = {
+			isa = PBXGroup;
+			children = (
+				D570ED0A2B0952BC0077DD29 /* AppDelegate.swift */,
+				D570ED0C2B0952BC0077DD29 /* SceneDelegate.swift */,
+				D570ED0E2B0952BC0077DD29 /* ViewController.swift */,
+				D570ED3A2B0955980077DD29 /* ContainerViewController.swift */,
+				D58C9A7E2B09BDF300EB9E72 /* CalorieViewController.swift */,
+				D570ED3C2B0961E10077DD29 /* MenuViewController.swift */,
+				D570ED3E2B0963250077DD29 /* HomeViewController.swift */,
+				D58C9A822B09EFAB00EB9E72 /* UploadPictureViewController.swift */,
+				D58C9A842B09FC7500EB9E72 /* ConfirmationViewController.swift */,
+				D570ED132B0952BD0077DD29 /* Assets.xcassets */,
+				D58C9A862B0A27D600EB9E72 /* profile.png */,
+				D58C9A802B09E52D00EB9E72 /* circle.jpeg */,
+				D570ED152B0952BD0077DD29 /* LaunchScreen.storyboard */,
+				D570ED182B0952BD0077DD29 /* Info.plist */,
+			);
+			path = CalorAI;
+			sourceTree = "<group>";
+		};
+		D570ED202B0952BE0077DD29 /* CalorAITests */ = {
+			isa = PBXGroup;
+			children = (
+				D570ED212B0952BE0077DD29 /* CalorAITests.swift */,
+			);
+			path = CalorAITests;
+			sourceTree = "<group>";
+		};
+		D570ED2A2B0952BE0077DD29 /* CalorAIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D570ED2B2B0952BE0077DD29 /* CalorAIUITests.swift */,
+				D570ED2D2B0952BE0077DD29 /* CalorAIUITestsLaunchTests.swift */,
+			);
+			path = CalorAIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D570ED062B0952BC0077DD29 /* CalorAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D570ED312B0952BE0077DD29 /* Build configuration list for PBXNativeTarget "CalorAI" */;
+			buildPhases = (
+				D570ED032B0952BC0077DD29 /* Sources */,
+				D570ED042B0952BC0077DD29 /* Frameworks */,
+				D570ED052B0952BC0077DD29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalorAI;
+			productName = CalorAI;
+			productReference = D570ED072B0952BC0077DD29 /* CalorAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D570ED1C2B0952BE0077DD29 /* CalorAITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D570ED342B0952BE0077DD29 /* Build configuration list for PBXNativeTarget "CalorAITests" */;
+			buildPhases = (
+				D570ED192B0952BE0077DD29 /* Sources */,
+				D570ED1A2B0952BE0077DD29 /* Frameworks */,
+				D570ED1B2B0952BE0077DD29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D570ED1F2B0952BE0077DD29 /* PBXTargetDependency */,
+			);
+			name = CalorAITests;
+			productName = CalorAITests;
+			productReference = D570ED1D2B0952BE0077DD29 /* CalorAITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D570ED262B0952BE0077DD29 /* CalorAIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D570ED372B0952BE0077DD29 /* Build configuration list for PBXNativeTarget "CalorAIUITests" */;
+			buildPhases = (
+				D570ED232B0952BE0077DD29 /* Sources */,
+				D570ED242B0952BE0077DD29 /* Frameworks */,
+				D570ED252B0952BE0077DD29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D570ED292B0952BE0077DD29 /* PBXTargetDependency */,
+			);
+			name = CalorAIUITests;
+			productName = CalorAIUITests;
+			productReference = D570ED272B0952BE0077DD29 /* CalorAIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D570ECFF2B0952BC0077DD29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D570ED062B0952BC0077DD29 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					D570ED1C2B0952BE0077DD29 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = D570ED062B0952BC0077DD29;
+					};
+					D570ED262B0952BE0077DD29 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = D570ED062B0952BC0077DD29;
+					};
+				};
+			};
+			buildConfigurationList = D570ED022B0952BC0077DD29 /* Build configuration list for PBXProject "CalorAI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D570ECFE2B0952BC0077DD29;
+			productRefGroup = D570ED082B0952BC0077DD29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D570ED062B0952BC0077DD29 /* CalorAI */,
+				D570ED1C2B0952BE0077DD29 /* CalorAITests */,
+				D570ED262B0952BE0077DD29 /* CalorAIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D570ED052B0952BC0077DD29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58C9A812B09E52D00EB9E72 /* circle.jpeg in Resources */,
+				D570ED172B0952BD0077DD29 /* LaunchScreen.storyboard in Resources */,
+				D570ED142B0952BD0077DD29 /* Assets.xcassets in Resources */,
+				D58C9A872B0A27D600EB9E72 /* profile.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D570ED1B2B0952BE0077DD29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D570ED252B0952BE0077DD29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D570ED032B0952BC0077DD29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D570ED0F2B0952BC0077DD29 /* ViewController.swift in Sources */,
+				D570ED3D2B0961E10077DD29 /* MenuViewController.swift in Sources */,
+				D570ED0B2B0952BC0077DD29 /* AppDelegate.swift in Sources */,
+				D58C9A852B09FC7500EB9E72 /* ConfirmationViewController.swift in Sources */,
+				D570ED0D2B0952BC0077DD29 /* SceneDelegate.swift in Sources */,
+				D58C9A832B09EFAB00EB9E72 /* UploadPictureViewController.swift in Sources */,
+				D570ED3B2B0955980077DD29 /* ContainerViewController.swift in Sources */,
+				D570ED3F2B0963250077DD29 /* HomeViewController.swift in Sources */,
+				D58C9A7F2B09BDF300EB9E72 /* CalorieViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D570ED192B0952BE0077DD29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D570ED222B0952BE0077DD29 /* CalorAITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D570ED232B0952BE0077DD29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D570ED2E2B0952BE0077DD29 /* CalorAIUITestsLaunchTests.swift in Sources */,
+				D570ED2C2B0952BE0077DD29 /* CalorAIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D570ED1F2B0952BE0077DD29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D570ED062B0952BC0077DD29 /* CalorAI */;
+			targetProxy = D570ED1E2B0952BE0077DD29 /* PBXContainerItemProxy */;
+		};
+		D570ED292B0952BE0077DD29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D570ED062B0952BC0077DD29 /* CalorAI */;
+			targetProxy = D570ED282B0952BE0077DD29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D570ED152B0952BD0077DD29 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D570ED162B0952BD0077DD29 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D570ED2F2B0952BE0077DD29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D570ED302B0952BE0077DD29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D570ED322B0952BE0077DD29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C8BFWP8DSF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalorAI/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Used to access LIDAR data";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.calorAI.CalorAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D570ED332B0952BE0077DD29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C8BFWP8DSF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalorAI/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Used to access LIDAR data";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.calorAI.CalorAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D570ED352B0952BE0077DD29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.calorAI.CalorAITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalorAI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CalorAI";
+			};
+			name = Debug;
+		};
+		D570ED362B0952BE0077DD29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.calorAI.CalorAITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalorAI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CalorAI";
+			};
+			name = Release;
+		};
+		D570ED382B0952BE0077DD29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.calorAI.CalorAIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CalorAI;
+			};
+			name = Debug;
+		};
+		D570ED392B0952BE0077DD29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.calorAI.CalorAIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CalorAI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D570ED022B0952BC0077DD29 /* Build configuration list for PBXProject "CalorAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D570ED2F2B0952BE0077DD29 /* Debug */,
+				D570ED302B0952BE0077DD29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D570ED312B0952BE0077DD29 /* Build configuration list for PBXNativeTarget "CalorAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D570ED322B0952BE0077DD29 /* Debug */,
+				D570ED332B0952BE0077DD29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D570ED342B0952BE0077DD29 /* Build configuration list for PBXNativeTarget "CalorAITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D570ED352B0952BE0077DD29 /* Debug */,
+				D570ED362B0952BE0077DD29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D570ED372B0952BE0077DD29 /* Build configuration list for PBXNativeTarget "CalorAIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D570ED382B0952BE0077DD29 /* Debug */,
+				D570ED392B0952BE0077DD29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D570ECFF2B0952BC0077DD29 /* Project object */;
+}
