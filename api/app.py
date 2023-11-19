@@ -8,6 +8,7 @@ from PIL import Image
 import io
 
 app = FastAPI()
+model = load_model('./classification/models/modelV2.pth')
 
 class Prediction(BaseModel):
     label: str
@@ -17,7 +18,6 @@ async def predict(file: UploadFile = File(...)):
     # Process the image
     image = Image.open(io.BytesIO(await file.read()))
 
-    model = load_model('./classification/models/modelV2.pth')
     # Make the prediction using the imported function
     prediction_label = make_prediction(model, image, "./classification/food-101/classes.txt")
 
