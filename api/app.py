@@ -1,21 +1,13 @@
-from fastapi import FastAPI, File, UploadFile, HTTPException
+from fastapi import FastAPI, File, UploadFile
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
-from typing import List
 import sys
 sys.path.append('../classification/')  # Replace with the actual path to the directory
 from foodClassify import make_prediction, load_model  # Import make_prediction from prediction_module
-from torchvision import transforms
 from PIL import Image
 import io
 
 app = FastAPI()
-
-class Item(BaseModel):
-    name: str
-    description: str = None
-    price: float
-    tax: float = None
 
 class Prediction(BaseModel):
     label: str
