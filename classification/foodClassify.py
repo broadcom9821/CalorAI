@@ -2,13 +2,8 @@ import os
 import torch
 import torch.nn as nn
 from torchvision import models
-from sklearn.utils import shuffle
-from torchvision import datasets, transforms
-from torch.utils.data import Dataset, DataLoader
+from torchvision import transforms
 from PIL import Image
-from tqdm import tqdm
-import matplotlib.pyplot as plt
-from collections import OrderedDict
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print(device)
 
@@ -88,9 +83,9 @@ def predict_class_from_path(model, image_path, classes_path):
     input_image, image_before_preprocessing = preprocess_image(image_path)
 
     # Display the original image
-    plt.imshow(image_before_preprocessing)
-    plt.title('Original Image')
-    plt.show()
+    # plt.imshow(image_before_preprocessing)
+    # plt.title('Original Image')
+    # plt.show()
 
     # Make the prediction
     with torch.no_grad():
