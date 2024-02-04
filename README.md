@@ -4,9 +4,10 @@ See what you eat, eat what you see.
 ![alt text](https://github.com/broadcom9821/CalorAI/blob/main/Visuals/cover.png)
 
 <p float="left">
-    <img src="https://github.com/broadcom9821/CalorAI/raw/main/Visuals/Picture1.jpg" alt="Image 1" width="400" />
-    <img src="https://github.com/broadcom9821/CalorAI/raw/main/Visuals/Picture2.jpg" alt="Image 2" width="400" />
-    <img src="https://github.com/broadcom9821/CalorAI/raw/main/Visuals/Picture3.jpg" alt="Image 3" width="400" />
+    <img src="https://github.com/broadcom9821/CalorAI/raw/main/Visuals/Picture1.jpg" alt="Image 1" width="500" />
+    <img src="https://github.com/broadcom9821/CalorAI/raw/main/Visuals/Picture2.jpg" alt="Image 2" width="500" />
+    <img src="https://github.com/broadcom9821/CalorAI/raw/main/Visuals/Picture3.jpg" alt="Image 3" width="500" />
+    <img src="https://github.com/broadcom9821/CalorAI/raw/main/Visuals/Picture6.jpg" alt="Image 3" width="500" />
 </p>
 
 ![alt text](https://github.com/broadcom9821/CalorAI/blob/main/Visuals/Picture5.jpg)
